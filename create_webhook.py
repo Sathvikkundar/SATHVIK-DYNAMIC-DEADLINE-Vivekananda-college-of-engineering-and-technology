@@ -7,7 +7,7 @@ def create_webhook():
     payload = {
         "data": {
             "resource": project_id,
-            "target": "https://a429-223-231-165-143.ngrok-free.app/webhook"
+            "target": "https://asana-service.onrender.com/webhook"
         }
     }
     response = requests.post(url, json=payload, headers=HEADERS)

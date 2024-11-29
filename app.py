@@ -14,9 +14,9 @@ load_dotenv()
 app = Flask(__name__)
 
 PRIORITY_MAPPING = {
-    "1208823908948968": "Low",    
-    "1208823908948969": "Medium",
-    "1208823908948970": "High"    
+    "1208830773863658": "Low",    
+    "1208830782494464": "Medium",
+    "1208830782494465": "High"    
 }
 
 IN_PROGRESS_SECTION_ID = os.getenv('IN_PROGRESS_SECTION_ID')
